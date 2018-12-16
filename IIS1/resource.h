@@ -6,6 +6,7 @@
 #define IDD_LAB_DIALOG                  103
 #define IDD_LAB2_DIALOG                 105
 #define IDD_LAB_DIALOG3                 107
+#define IDD_LAB4_DIALOG                 109
 #define IDC_OPEN_BTN                    1001
 #define IDC_FILE_NAME                   1002
 #define IDC_MORPH_TEXT                  1003
@@ -14,6 +15,7 @@
 #define IDC_FORMS_LIST                  1007
 #define IDC_PROPERTIES_LIST             1008
 #define IDC_WORD_INFO_GROUP             1009
+#define IDC_PROPERTIES_LIST2            1009
 #define IDC_BUTTON1                     1012
 #define IDC_LAB_BTN                     1012
 #define IDC_FIND_BUTTON                 1012
@@ -24,14 +26,20 @@
 #define IDC_WORD1_EDIT                  1017
 #define IDC_RESULT_EDIT                 1018
 #define IDC_LIST1                       1019
+#define IDC_FOLDER_EDIT                 1020
+#define IDC_SEARCH_EDIT                 1021
+#define IDC_SEARCH_BTN                  1022
+#define IDC_RESULT_LIST                 1023
+#define IDC_COMBO1                      1024
+#define IDC_LANGUAGE_COMBO              1024
 
 // Next default values for new objects
 // 
 #ifdef APSTUDIO_INVOKED
 #ifndef APSTUDIO_READONLY_SYMBOLS
-#define _APS_NEXT_RESOURCE_VALUE        109
+#define _APS_NEXT_RESOURCE_VALUE        111
 #define _APS_NEXT_COMMAND_VALUE         40001
-#define _APS_NEXT_CONTROL_VALUE         1020
+#define _APS_NEXT_CONTROL_VALUE         1025
 #define _APS_NEXT_SYMED_VALUE           101
 #endif
 #endif

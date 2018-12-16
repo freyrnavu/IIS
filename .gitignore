@@ -78,3 +78,6 @@ Release/IIS1.exe
 Release/IIS1.iobj
 Release/IIS1.ipdb
 Release/stems.txt
+IIS1/Release/*
+IIS1/x64/*
+.vs/*
