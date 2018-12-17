@@ -22,7 +22,7 @@ protected:
 	void closeApplication();
 	void openLabWindow();
 	void OnBnClickedLab2Btn();
-	void OnBnClickedLab3Btn();
+	void OnBnClickedLab4Btn();
 
 	DECLARE_MESSAGE_MAP()
 

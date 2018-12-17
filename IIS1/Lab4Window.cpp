@@ -14,12 +14,12 @@
 #include "StemmerFactory.h"
 
 BEGIN_MESSAGE_MAP(Lab4Window, ETSLayoutDialog)
-	ON_BN_CLICKED(IDC_FIND_BUTTON, onFindBtnClicked)
+	ON_BN_CLICKED(IDC_SEARCH_BTN, onFindBtnClicked)
 	ON_BN_CLICKED(IDC_OPEN_BTN, onOpenBtnClicked)
 END_MESSAGE_MAP()
 
 Lab4Window::Lab4Window(CWnd* parent)
-	: ETSLayoutDialog(IDD_LAB_DIALOG3, parent)
+	: ETSLayoutDialog(IDD_LAB4_DIALOG, parent)
 {
 }
 
@@ -35,11 +35,11 @@ void Lab4Window::initLayout()
 {
 	CreateRoot(VERTICAL)
 		<< (pane(HORIZONTAL)
-			<< item(&_folderEdit)
+			<< item(&_folderEdit, ABSOLUTE_VERT)
 			<< item(&_openBtn, NORESIZE)
 			)
 		<< (pane(HORIZONTAL)
-			<< item(&_searchEdit)
+			<< item(&_searchEdit, ABSOLUTE_VERT)
 			<< item(&_searchBtn, NORESIZE)
 			)
 		<< item(&_resultList)

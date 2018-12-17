@@ -8,6 +8,7 @@
 #include "LabWindow.h"
 #include "Lab2Window.h"
 #include "Lab3Window.h"
+#include "Lab4Window.h"
 
 BEGIN_MESSAGE_MAP(MainWindow, ETSLayoutDialog)
 	ON_BN_CLICKED(IDC_OPEN_BTN, onOpenBtnClicked)
@@ -15,6 +16,7 @@ BEGIN_MESSAGE_MAP(MainWindow, ETSLayoutDialog)
 	ON_BN_CLICKED(IDCANCEL, closeApplication)
 	ON_BN_CLICKED(IDC_LAB_BTN, openLabWindow)
 	ON_BN_CLICKED(IDC_LAB2_BTN, OnBnClickedLab2Btn)
+	ON_BN_CLICKED(IDC_LAB4_BTN, OnBnClickedLab4Btn)
 END_MESSAGE_MAP()
 
 MainWindow::MainWindow(CWnd* parent) : ETSLayoutDialog(IDD_MAIN_WINDOW, parent)
@@ -112,7 +114,7 @@ void MainWindow::OnBnClickedLab2Btn()
 	Lab2Window(this).DoModal();
 }
 
-void MainWindow::OnBnClickedLab3Btn()
+void MainWindow::OnBnClickedLab4Btn()
 {
-	//Lab3Window(this).DoModal();
+	Lab4Window(this).DoModal();
 }

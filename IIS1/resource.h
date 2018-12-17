@@ -21,6 +21,8 @@
 #define IDC_FIND_BUTTON                 1012
 #define IDC_LAB2_BTN                    1013
 #define IDC_LAB3_BTN                    1014
+#define IDC_LAB2_BTN2                   1014
+#define IDC_LAB4_BTN                    1014
 #define IDC_LIST2                       1015
 #define IDC_WORD2_EDIT                  1016
 #define IDC_WORD1_EDIT                  1017
@@ -30,8 +32,6 @@
 #define IDC_SEARCH_EDIT                 1021
 #define IDC_SEARCH_BTN                  1022
 #define IDC_RESULT_LIST                 1023
-#define IDC_COMBO1                      1024
-#define IDC_LANGUAGE_COMBO              1024
 
 // Next default values for new objects
 // 
